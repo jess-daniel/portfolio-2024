@@ -2,7 +2,7 @@ version: "3"
 services:
   portfolio:
     container_name: portfolio
-    image: personal-portfolio
+    image: portfolio:latest
     restart: unless-stopped
     ports:
       - "4321:4321"
